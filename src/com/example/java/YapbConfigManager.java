@@ -149,22 +149,6 @@ public class YapbConfigManager {
 			
 			index++;
 		}
-		/*
-		for (HashMap.Entry<String,String> entry : set) {
-			sb.append( entry.getKey() + " = " + entry.getValue());
-			System.out.println(entry.getKey() + " = " + entry.getValue());
-			
-			String closure;
-			
-			if (index + 1 == set.size() )
-				closure = "";
-			else
-				closure = ",";
-			
-			sb.append(closure + "\n");
-			
-			index++;
-		}*/
 
 		sb.append("}" + "\n");
 		

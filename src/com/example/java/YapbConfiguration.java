@@ -6,3 +6,4 @@ public class YapbConfiguration {
 	public String title;
 	public HashMap<String,String> keyValueMap;
 }
+
